@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Парк автокранов — КранСервис</title>
+<meta name="description" content="Каталог автокранов в аренду: от 20 до 40 тонн. Технические характеристики, цены и фильтр по классу грузоподъёмности.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏗️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 30V14a2 2 0 0 1 2-2h1" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M11 12L29 6l1.5 6.5" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 8.5V17" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><circle cx="23" cy="19.5" r="1.8" fill="currentColor"/><rect x="5" y="28" width="14" height="5" rx="2.5" fill="currentColor"/></svg>
+      </span>
+      КранСервис
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Главная</a>
+      <a href="o-kompanii.html">О компании</a>
+      <a href="park-tekhniki.html" class="active">Автокраны</a>
+      <a href="kontakty.html">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <div class="contact-widget">
+        <a href="tel:+74950000000" class="contact-trigger" aria-label="Позвонить">
+          <img src="images/phone.png" alt="Телефон" width="128" height="128">
+        </a>
+        <div class="contact-dropdown">
+          <div class="contact-dropdown-inner">
+            <a href="https://wa.me/74950000000" class="contact-dropdown-item is-whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <img src="images/whatsapp.png" alt="WhatsApp" width="128" height="128">
+            </a>
+            <a href="#" class="contact-dropdown-item" aria-label="Telegram">
+              <img src="images/telegram.png" alt="Telegram" width="128" height="128">
+            </a>
+            <a href="mailto:info@kranservis.ru" class="contact-dropdown-item" aria-label="Email">
+              <img src="images/mail.png" alt="Email" width="128" height="128">
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow reveal">Парк техники</span>
+      <h1 class="reveal reveal-delay-1">Автокраны в аренду — от 20 до 40 тонн</h1>
+      <p class="reveal reveal-delay-2">Подбираем технику по грузоподъёмности, вылету стрелы и высоте подъёма. Все краны проходят регулярное техобслуживание.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:48px;">
+    <div class="container">
+
+      <div class="filter-tags reveal">
+        <button class="filter-tag active" data-filter="all">Все краны</button>
+        <button class="filter-tag" data-filter="srednie">Средние, 20–25 т</button>
+        <button class="filter-tag" data-filter="tyazhelye">Тяжёлые, 32 т</button>
+        <button class="filter-tag" data-filter="usilennye">Усиленные, 40 т</button>
+      </div>
+
+      <div class="grid-3">
+
+        <div class="crane-card reveal" data-category="srednie">
+          <div class="photo-placeholder small">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.5h7l1 1.5H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Фото: автокран КС-45719 сбоку, нейтральный фон</span>
+          </div>
+          <div class="crane-card-body">
+            <span class="crane-tag">Средний класс</span>
+            <h3>Клинцы КС-45719</h3>
+            <div class="crane-specs">
+              <div><span>Грузоподъёмность</span><b>20 т</b></div>
+              <div><span>Вылет стрелы</span><b>18 м</b></div>
+              <div><span>Высота подъёма</span><b>22 м</b></div>
+              <div><span>Шасси</span><b>КамАЗ</b></div>
+            </div>
+            <div class="crane-price">от 2 800 ₽/час</div>
+            <a href="kontakty.html" class="btn btn-primary btn-sm btn-block">Заказать</a>
+          </div>
+        </div>
+
+        <div class="crane-card reveal reveal-delay-1" data-category="srednie">
+          <div class="photo-placeholder small">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.5h7l1 1.5H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Фото: автокран КС-45717 спереди, на площадке</span>
+          </div>
+          <div class="crane-card-body">
+            <span class="crane-tag">Средний класс</span>
+            <h3>Ивановец КС-45717</h3>
+            <div class="crane-specs">
+              <div><span>Грузоподъёмность</span><b>25 т</b></div>
+              <div><span>Вылет стрелы</span><b>21 м</b></div>
+              <div><span>Высота подъёма</span><b>28 м</b></div>
+              <div><span>Шасси</span><b>КамАЗ</b></div>
+            </div>
+            <div class="crane-price">от 3 200 ₽/час</div>
+            <a href="kontakty.html" class="btn btn-primary btn-sm btn-block">Заказать</a>
+          </div>
+        </div>
+
+        <div class="crane-card reveal reveal-delay-2" data-category="tyazhelye">
+          <div class="photo-placeholder small">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.5h7l1 1.5H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Фото: автокран «Челябинец» КС-65711 на объекте</span>
+          </div>
+          <div class="crane-card-body">
+            <span class="crane-tag">Тяжёлый класс</span>
+            <h3>Челябинец КС-65711</h3>
+            <div class="crane-specs">
+              <div><span>Грузоподъёмность</span><b>32 т</b></div>
+              <div><span>Вылет стрелы</span><b>24 м</b></div>
+              <div><span>Высота подъёма</span><b>34 м</b></div>
+              <div><span>Шасси</span><b>МАЗ</b></div>
+            </div>
+            <div class="crane-price">от 3 800 ₽/час</div>
+            <a href="kontakty.html" class="btn btn-primary btn-sm btn-block">Заказать</a>
+          </div>
+        </div>
+
+        <div class="crane-card reveal" data-category="tyazhelye">
+          <div class="photo-placeholder small">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.5h7l1 1.5H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Фото: автокран КС-55729, вид спереди целиком</span>
+          </div>
+          <div class="crane-card-body">
+            <span class="crane-tag">Тяжёлый класс</span>
+            <h3>Ивановец КС-55729</h3>
+            <div class="crane-specs">
+              <div><span>Грузоподъёмность</span><b>32 т</b></div>
+              <div><span>Вылет стрелы</span><b>28 м</b></div>
+              <div><span>Высота подъёма</span><b>35 м</b></div>
+              <div><span>Шасси</span><b>КамАЗ</b></div>
+            </div>
+            <div class="crane-price">от 3 900 ₽/час</div>
+            <a href="kontakty.html" class="btn btn-primary btn-sm btn-block">Заказать</a>
+          </div>
+        </div>
+
+        <div class="crane-card reveal reveal-delay-1" data-category="usilennye">
+          <div class="photo-placeholder small">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.5h7l1 1.5H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Фото: автокран «Ивановец» КС-65740, общий план на объекте</span>
+          </div>
+          <div class="crane-card-body">
+            <span class="crane-tag">Усиленный класс</span>
+            <h3>Ивановец КС-65740</h3>
+            <div class="crane-specs">
+              <div><span>Грузоподъёмность</span><b>40 т</b></div>
+              <div><span>Вылет стрелы</span><b>34 м</b></div>
+              <div><span>Высота подъёма</span><b>44 м</b></div>
+              <div><span>Шасси</span><b>КамАЗ</b></div>
+            </div>
+            <div class="crane-price">от 4 500 ₽/час</div>
+            <a href="kontakty.html" class="btn btn-primary btn-sm btn-block">Заказать</a>
+          </div>
+        </div>
+
+        <div class="crane-card reveal reveal-delay-2" data-category="usilennye">
+          <div class="photo-placeholder small">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.5h7l1 1.5H18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Фото: автокран «Галичанин» КС-65713, крупный план</span>
+          </div>
+          <div class="crane-card-body">
+            <span class="crane-tag">Усиленный класс</span>
+            <h3>Галичанин КС-65713</h3>
+            <div class="crane-specs">
+              <div><span>Грузоподъёмность</span><b>40 т</b></div>
+              <div><span>Вылет стрелы</span><b>35 м</b></div>
+              <div><span>Высота подъёма</span><b>46 м</b></div>
+              <div><span>Шасси</span><b>МАЗ</b></div>
+            </div>
+            <div class="crane-price">от 4 800 ₽/час</div>
+            <a href="kontakty.html" class="btn btn-primary btn-sm btn-block">Заказать</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Не уверены, какой кран нужен?</h2>
+        <p>Опишите задачу — подберём подходящую модель по грузоподъёмности и вылету стрелы</p>
+        <span class="cta-phone">+7 (495) 000-00-00</span>
+        <div class="cta-actions">
+          <a href="kontakty.html" class="btn btn-primary">Подобрать кран</a>
+          <a href="tel:+74950000000" class="btn btn-outline-light">Позвонить сейчас</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <span class="logo-icon">
+            <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 30V14a2 2 0 0 1 2-2h1" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M11 12L29 6l1.5 6.5" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 8.5V17" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><circle cx="23" cy="19.5" r="1.8" fill="currentColor"/><rect x="5" y="28" width="14" height="5" rx="2.5" fill="currentColor"/></svg>
+          </span>
+          КранСервис
+        </div>
+        <p>Аренда автокранов грузоподъёмностью от 20 до 40 тонн в Москве и Московской области. Работаем с 2010 года.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Telegram"><img src="images/telegram.png" alt="Telegram" width="128" height="128"></a>
+          <a href="https://wa.me/74950000000" aria-label="WhatsApp" target="_blank" rel="noopener"><img src="images/whatsapp.png" alt="WhatsApp" width="128" height="128"></a>
+          <a href="mailto:info@kranservis.ru" aria-label="Email"><img src="images/mail.png" alt="Email" width="128" height="128"></a>
+          <a href="tel:+74950000000" aria-label="Телефон"><img src="images/phone.png" alt="Телефон" width="128" height="128"></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="o-kompanii.html">О компании</a></li>
+          <li><a href="uslugi.html">Услуги</a></li>
+          <li><a href="park-tekhniki.html">Парк техники</a></li>
+          <li><a href="tseny.html">Цены</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Услуги</h4>
+        <ul>
+          <li><a href="uslugi.html">Аренда с оператором</a></li>
+          <li><a href="uslugi.html">Монтажные работы</a></li>
+          <li><a href="uslugi.html">Погрузка / разгрузка</a></li>
+          <li><a href="uslugi.html">Перевозка на трале</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li>г. Москва, ул. Примерная, д. 10</li>
+          <li><a href="tel:+74950000000">+7 (495) 000-00-00</a></li>
+          <li><a href="mailto:info@kranservis.ru">info@kranservis.ru</a></li>
+          <li>Ежедневно, круглосуточно</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 КранСервис. Все права защищены.</span>
+      <a href="#">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
