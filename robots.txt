@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://slavochka1250-spec.github.io/crany/sitemap.xml
