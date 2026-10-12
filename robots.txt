@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /*?*
+
+User-agent: Yandex
+Allow: /
+Disallow: /*?*
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid&fbclid&nocache
+
+Sitemap: https://slavochka1250-spec.github.io/crany/sitemap.xml
